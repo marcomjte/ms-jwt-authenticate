@@ -1,0 +1,8 @@
+node_modules/
+tests/
+.dockerignore
+.env
+.env.template
+.gitignore
+*.bat
+Dockerfile

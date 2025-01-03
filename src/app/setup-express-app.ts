@@ -18,7 +18,7 @@ const setupExpressApp = () => {
   app.use(errorHandler)
   
   let { PORT: port } = process.env
-  port = port || '3001'
+  port = port || '3000'
   app.listen(+port, () => {
     console.log(' Server is listen on port: ', port)
   })
