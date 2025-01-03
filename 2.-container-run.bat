@@ -1,0 +1,1 @@
+docker run --name jwt_authenticate_container_1 -d -p 3306:3306 jwt_authenticate_image_1:18.11

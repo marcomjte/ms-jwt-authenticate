@@ -1,0 +1,6 @@
+POST http://localhost:3000/user/check-email-existence
+content-type: application/json
+
+{
+    "email": "marco.jimenez@macropay.mx"
+}

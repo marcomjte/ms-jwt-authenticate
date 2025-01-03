@@ -1,0 +1,1 @@
+docker build . -t jwt_authenticate_image_1:18.11
