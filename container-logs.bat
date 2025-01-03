@@ -1,0 +1,1 @@
+docker logs -f jwt_authenticate_container_1
