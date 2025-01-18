@@ -1,4 +1,5 @@
 import { DataSource } from 'typeorm'
+import { log } from 'console'
 
 const {
   DB_HOST: host,
@@ -7,6 +8,13 @@ const {
   DB_PORT: port,
   DB_NAME: database
 } = process.env
+
+log(' - data source')
+log(' - host', host)
+log(' - password', password)
+log(' - username', username)
+log(' - port', port)
+log(' - database', database)
 
 export const AppDataSource = new DataSource({
   type: 'mysql',
